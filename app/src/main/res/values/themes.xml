@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base de la aplicacion (modo claro). -->
+    <style name="Base.Theme.Semana7Actividad22ThreadsYSensores" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/verde_principal</item>
+        <item name="colorSecondary">@color/ambar_acento</item>
+    </style>
+
+    <style name="Theme.Semana7Actividad22ThreadsYSensores" parent="Base.Theme.Semana7Actividad22ThreadsYSensores" />
+</resources>
