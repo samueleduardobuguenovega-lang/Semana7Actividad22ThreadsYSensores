@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Semana 7 Actividad 2.2</string>
+
+    <!-- Pantalla principal (actividad 2.1: intents) -->
+    <string name="titulo_principal">Actividad 2.2: Threads y Sensores</string>
+    <string name="subtitulo_intents">1. Intents (actividad 2.1)</string>
+    <string name="hint_nombre_foto">Nombre de la foto</string>
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="btn_hacer_foto">HACER FOTO</string>
+    <string name="btn_limpiar">LIMPIAR</string>
+    <string name="desc_foto">Vista previa de la foto</string>
+    <string name="titulo_resultado">Resultado</string>
+    <string name="resultado_prefijo">Nombre recibido: %1$s</string>
+    <string name="resultado_sin_nombre">No se recibio ningun nombre.</string>
+    <string name="btn_compartir">COMPARTIR</string>
+    <string name="btn_volver">VOLVER</string>
+    <string name="titulo_compartir">Compartir nombre de la foto</string>
+    <string name="msg_falta_nombre">Debes escribir el nombre de la foto</string>
+    <string name="msg_sin_camara">No hay una aplicacion de camara disponible</string>
+    <string name="msg_foto_cancelada">No se tomo la foto</string>
+    <string name="msg_foto_sin_imagen">La camara no devolvio ninguna imagen</string>
+    <string name="msg_sin_app_compartir">No hay una aplicacion para compartir disponible</string>
+
+    <!-- Threads -->
+    <string name="subtitulo_hilos">2. Threads: descarga en segundo plano</string>
+    <string name="btn_descargar">DESCARGAR IMAGEN (THREAD)</string>
+    <string name="estado_hilo_inicial">Sin descargar todavia.</string>
+    <string name="estado_hilo_descargando">Descargando la imagen en un hilo de segundo plano...</string>
+    <string name="estado_hilo_ok_red">Descarga lista desde la red en %1$d ms (hilo de segundo plano).</string>
+    <string name="estado_hilo_ok_local">Sin internet: se uso la imagen de respaldo generada en el equipo en %1$d ms.</string>
+
+    <!-- AsyncTask -->
+    <string name="subtitulo_async">3. AsyncTask: procesar la imagen</string>
+    <string name="btn_procesar">PROCESAR EN ESCALA DE GRISES (ASYNCTASK)</string>
+    <string name="estado_async_inicial">Sin procesar todavia.</string>
+    <string name="estado_async_procesando">Procesando pixel a pixel...</string>
+    <string name="estado_async_listo">Imagen procesada en %1$d ms (AsyncTask).</string>
+    <string name="estado_async_sin_imagen">No se pudo procesar: no hay imagen cargada.</string>
+    <string name="btn_compartir_imagen">COMPARTIR IMAGEN PROCESADA</string>
+    <string name="titulo_compartir_imagen">Compartir la imagen procesada</string>
+    <string name="msg_sin_imagen_procesada">Primero procesa una imagen con el AsyncTask</string>
+    <string name="msg_error_compartir">No se pudo compartir la imagen: %1$s</string>
+
+    <!-- Sensores -->
+    <string name="subtitulo_sensores">4. Sensores (entrada de datos)</string>
+    <string name="btn_ver_sensores">VER SENSORES</string>
+    <string name="titulo_sensores">Sensores del equipo</string>
+    <string name="sensores_estado_inicial">Esperando datos de los sensores...</string>
+    <string name="sensores_estado">Vector de rotacion: %1$s | Acelerometro: %2$s</string>
+    <string name="sensores_activo">registrado</string>
+    <string name="sensores_ausente">no disponible</string>
+    <string name="sensores_vector_inicial">Vector de rotacion: sin datos</string>
+    <string name="sensores_vector">Vector de rotacion (x, y, z): %1$.3f, %2$.3f, %3$.3f</string>
+    <string name="sensores_angulos_inicial">Orientacion: sin datos</string>
+    <string name="sensores_angulos">Orientacion (azimut, pitch, roll): %1$.1f, %2$.1f, %3$.1f grados</string>
+    <string name="sensores_aceleracion_inicial">Aceleracion: sin datos</string>
+    <string name="sensores_aceleracion">Aceleracion (x, y, z): %1$.3f, %2$.3f, %3$.3f m/s2 | Modulo: %4$.3f</string>
+    <string name="sensores_muestras_inicial">Muestras: 0</string>
+    <string name="sensores_muestras">Muestras recibidas: %1$d de rotacion, %2$d de aceleracion</string>
+    <string name="sensores_listado_titulo">Todos los sensores del equipo</string>
+    <string name="sensores_detectados">Sensores detectados: %1$d</string>
+</resources>
